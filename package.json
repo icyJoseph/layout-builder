@@ -8,8 +8,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@rebass/layout": "^4.0.6",
+    "@rebass/preset": "^4.0.5",
+    "axios": "^0.19.2",
+    "emotion-theming": "^10.0.27",
     "next": "9.3.1",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "react-jsx-parser": "^1.21.0",
+    "rebass": "^4.0.7",
+    "swr": "^0.1.18"
   }
 }
