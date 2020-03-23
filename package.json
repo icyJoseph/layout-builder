@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-	"cms":"playroom start"
+    "cms": "playroom start"
   },
   "dependencies": {
     "@rebass/layout": "^4.0.6",
