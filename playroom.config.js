@@ -5,7 +5,7 @@ module.exports = {
   title: "CMS builder",
   // themes: './src/themes',
   // snippets: './playroom/snippets.js',
-  // frameComponent: './playroom/FrameComponent.js',
+  frameComponent: './playroom/FrameComponent.js',
   widths: [320, 375, 768, 1024],
   port: 9000,
   openBrowser: true,
