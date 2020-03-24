@@ -1,8 +1,6 @@
 import React from "react";
 import JsxParser from "react-jsx-parser";
-import { Box, Button, Card, Flex, Heading, Image, Text } from "rebass";
-import { Badge } from "../components/Badge";
-import * as Pokemon from "../components/Pokemon";
+import * as Components from "../components";
 import someLayout from "../templates/Layout";
 
 const Home = ({ title, image, pokemon, pokemonList, layout }) => {
@@ -15,15 +13,7 @@ const Home = ({ title, image, pokemon, pokemonList, layout }) => {
         pokemon
       }}
       components={{
-        Badge,
-        Box,
-        Button,
-        Card,
-        Flex,
-        Heading,
-        Image,
-        Text,
-        Pokemon
+        ...Components
       }}
       jsx={layout}
     ></JsxParser>

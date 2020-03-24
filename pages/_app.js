@@ -3,9 +3,7 @@ import Head from "next/head";
 import React from "react";
 import { Global, css } from "@emotion/core";
 import { ThemeProvider } from "emotion-theming";
-import preset from "@rebass/preset";
-
-const theme = { ...preset, fonts: { ...preset.fonts, body: "monospace" } };
+import theme from "@rebass/preset";
 
 export default class MyApp extends App {
   static async getInitialProps({ Component, ctx }) {

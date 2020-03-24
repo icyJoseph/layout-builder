@@ -22,15 +22,6 @@ class MyDocument extends Document {
         />
 
         <body>
-          <Flex px={2} color="white" bg="black" alignItems="center">
-            <Text p={3} fontWeight="bold">
-              Rebass
-            </Text>
-            <Box mx="auto" />
-            <Text p={1} color="white">
-                Options
-            </Text>
-          </Flex>
           <Main />
           <NextScript />
         </body>
