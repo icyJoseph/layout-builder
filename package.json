@@ -13,7 +13,7 @@
     "@rebass/preset": "^4.0.5",
     "axios": "^0.19.2",
     "emotion-theming": "^10.0.27",
-    "next": "9.3.2",
+    "next": "13.5.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "react-jsx-parser": "^1.21.0",
